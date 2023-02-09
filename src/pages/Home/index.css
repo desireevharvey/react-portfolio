@@ -1,13 +1,26 @@
 .Job {
     text-align: center;
     margin-top: 6%;
+    margin-bottom: 4em;
 }
 
 .Pic {
     border-radius: 100%;
     display: flex;
     position: absolute; 
-    top: 65%; 
+    top: 62%; 
     left: 50%; 
     transform: translate(-50%, -50%)
+}
+
+
+.text-image {
+    display: flex;
+    position: absolute;
+    top: 85%;
+    width: 45%; 
+    margin: auto; 
+    margin-left: 30%;
+    margin-right: auto;
+    text-align: center;
 }

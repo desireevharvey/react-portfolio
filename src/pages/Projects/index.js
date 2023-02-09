@@ -45,7 +45,7 @@ export default function CardExample() {
             MongoDB, Express, Bootstrap
             </Card.Text>
             <Button variant="secondary" href="https://github.com/desireevharvey/adopt_A_Pet">Github Repo</Button>{' '}
-            <Button variant="secondary" href="https://i.postimg.cc/63B7JQTh/204708928-72b7f933-b01c-46ae-b53f-ef9ed3557fdb.png">Live Site/App</Button>{' '}
+            <Button variant="secondary" href="">Live Site/App</Button>{' '}
 
           </Card.Body>
         </Card>

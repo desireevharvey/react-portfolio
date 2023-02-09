@@ -1,14 +1,25 @@
+.Git {
+  width: 2.5em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
 
+.Link {
+  width: 2.5em;
+  margin-bottom: 1em;
+
+}
 
 
 
 .App {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 3%;
 }
 
 .Name {
-  margin-bottom: 6%;
+  margin-bottom: 2%;
+  margin-top: 0.3em;
 }
 
 .App-logo {
