@@ -3,12 +3,13 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
-import '../../index.css';
+import './index.css';
 
 export default function CardExample() {
   return (
     <>
     
+    <h5 className="proj">Projects</h5>
       <Col md={3}>
         <Card style={{ width: "40rem" }}>
         <Card.Img variant="top" src="https://i.postimg.cc/PxjBW2MS/200362906-5f8107f1-6ae9-4b6b-ac8b-c1c8d269df4c.png
@@ -21,8 +22,8 @@ export default function CardExample() {
 
              Languages: HTML, CSS, Javascript
             </Card.Text>
-            <Button href="https://github.com/desireevharvey/desireeHarvey_Portfolio">Github Repo</Button>{' '}
-            <Button href="https://desireevharvey.github.io/desireeHarvey_Portfolio/">Live Site/App</Button>{' '}
+            <Button variant="secondary" href="https://github.com/desireevharvey/desireeHarvey_Portfolio">Github Repo</Button>{' '}
+            <Button variant="secondary" href="https://desireevharvey.github.io/desireeHarvey_Portfolio/">Live Site/App</Button>{' '}
 
           </Card.Body>
         </Card>
@@ -43,8 +44,8 @@ export default function CardExample() {
             Languages: EJS, Javascript, HTML, CSS, Shell, Node.js, 
             MongoDB, Express, Bootstrap
             </Card.Text>
-            <Button href="https://github.com/desireevharvey/adopt_A_Pet">Github Repo</Button>{' '}
-            <Button href="https://i.postimg.cc/63B7JQTh/204708928-72b7f933-b01c-46ae-b53f-ef9ed3557fdb.png">Live Site/App</Button>{' '}
+            <Button variant="secondary" href="https://github.com/desireevharvey/adopt_A_Pet">Github Repo</Button>{' '}
+            <Button variant="secondary" href="https://i.postimg.cc/63B7JQTh/204708928-72b7f933-b01c-46ae-b53f-ef9ed3557fdb.png">Live Site/App</Button>{' '}
 
           </Card.Body>
         </Card>
@@ -61,8 +62,8 @@ export default function CardExample() {
               (buyers and sellers) to view and post local items for 
               sale.
             </Card.Text>
-            <Button href="https://github.com/tehranimilad/Yard-Sail">Github Repo</Button>{' '}
-            <Button href="https://yard-sail-app.herokuapp.com/">Live Site/App</Button>{' '}
+            <Button variant="secondary" href="https://github.com/tehranimilad/Yard-Sail">Github Repo</Button>{' '}
+            <Button variant="secondary" href="https://yard-sail-app.herokuapp.com/">Live Site/App</Button>{' '}
 
           </Card.Body>
         </Card>
@@ -79,8 +80,8 @@ export default function CardExample() {
               are allowed to log in in order to create, edit or 
               delete events.
             </Card.Text>
-            <Button href="https://github.com/desireevharvey/my_events_app">Github Repo</Button>{' '}
-            <Button href="https://event-seeker.herokuapp.com/">Live Site/App</Button>{' '}
+            <Button variant="secondary" href="https://github.com/desireevharvey/my_events_app">Github Repo</Button>{' '}
+            <Button variant="secondary" href="https://event-seeker.herokuapp.com/">Live Site/App</Button>{' '}
 
           </Card.Body>
         </Card>

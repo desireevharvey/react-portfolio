@@ -5,12 +5,16 @@ import AboutMe from './pages/AboutMe';
 import Resume from './pages/Resume';
 import Projects from './pages/Projects';
 import Header from './components/Header';
+import './App.css';
+
+
 
 function App() {
   return (
     <>
+
     <div className="App">
-      <h1>Desiree V. Harvey</h1>
+      <h3 className="Name">Desiree V. Harvey</h3>
     <Header/>
          
     </div>
@@ -29,5 +33,7 @@ function App() {
 
   );
 }
+
+
 
 export default App;
