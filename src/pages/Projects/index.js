@@ -8,10 +8,10 @@ import './index.css';
 export default function CardExample() {
   return (
     <>
-    
+    <div class="row">
     <h5 className="proj">Projects</h5>
-      <Col md={3}>
-        <Card style={{ width: "40rem" }}>
+      <Col sm={6}>
+        <Card style={{ width: "20rem", height: "35rem" }}>
         <Card.Img variant="top" src="https://i.postimg.cc/PxjBW2MS/200362906-5f8107f1-6ae9-4b6b-ac8b-c1c8d269df4c.png
 " />
           <Card.Body>
@@ -28,8 +28,8 @@ export default function CardExample() {
           </Card.Body>
         </Card>
       </Col>
-      <Col md={3}>
-        <Card style={{ width: "40rem" }}>
+      <Col sm={6}>
+        <Card style={{ width: "20rem", height: "35rem" }}>
         <Card.Img variant="top" src="https://i.postimg.cc/g28Bk3Vd/204708928-72b7f933-b01c-46ae-b53f-ef9ed3557fdb.png
 " />
           <Card.Body>
@@ -50,8 +50,8 @@ export default function CardExample() {
           </Card.Body>
         </Card>
       </Col>
-      <Col md={3}>
-        <Card style={{ width: "40rem" }}>
+      <Col sm={6}>
+        <Card style={{ width: "20rem", height: "35rem" }}>
         <Card.Img variant="top" src="https://i.postimg.cc/kXVpz0D2/210301116-941b7853-4883-4a16-80e9-91a96a43714b.jpg
 " />
           <Card.Body>
@@ -68,9 +68,9 @@ export default function CardExample() {
           </Card.Body>
         </Card>
       </Col>
-      <Col md={3}>
-        <Card style={{ width: "40rem" }}>
-        <Card.Img variant="top" src="https://i.postimg.cc/Fs2B4TJD/Screen-Shot-2023-02-08-at-8-49-45-PM.png
+      <Col sm={6}>
+        <Card style={{ width: "20rem", height: "35rem" }}>
+        <Card.Img variant="top" src="https://i.postimg.cc/Fs2B4TJD/Screen-Shot-2023-02-08-at-8-49-45-PM.png 
 " />
           <Card.Body>
             <Card.Title>Event Seeker</Card.Title>
@@ -86,7 +86,7 @@ export default function CardExample() {
           </Card.Body>
         </Card>
       </Col>
-    
+    </div>
     </>
   );
 }
