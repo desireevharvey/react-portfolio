@@ -5,7 +5,17 @@ import { Image } from 'react-bootstrap';
 export default function home() {
   return (
     <div>
-        <h5 className="Job">Software Engineer</h5>
+
+        <a href="https://github.com/desireevharvey">
+          <Image src="https://i.postimg.cc/Hs62b59z/317712-code-repository-github-repository-resource-icon.png"
+          className="git" />
+          </a>
+          <a href="https://www.linkedin.com/in/desireeharvey/">
+          <Image src="https://i.postimg.cc/MpXY5TsS/5296501-linkedin-network-linkedin-logo-icon.png"
+          className="link" />
+          </a>
+
+          <h5 className="Job">Software Engineer</h5>
 
         <Image className="Pic" src="https://i.postimg.cc/XqkfbfCB/IMG-1189.jpg" fluid />
         <div class='text-image'>

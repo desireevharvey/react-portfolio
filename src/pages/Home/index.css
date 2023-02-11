@@ -1,7 +1,7 @@
 .Job {
     text-align: center;
     margin-top: 6%;
-    margin-bottom: 4em;
+    margin-bottom: 1em;
 }
 
 .Pic {
@@ -12,6 +12,24 @@
     left: 50%; 
     transform: translate(-50%, -50%)
 }
+
+.link {
+    width: 2em;
+    position: absolute;
+    left: 47%;
+    right: 75%;
+    margin-top: -3.5em;
+}
+
+
+.git {
+    width: 2em;
+    position: absolute;
+    left: 50%;
+    margin-top: -3.5em;
+
+}
+
 
 
 .text-image {
