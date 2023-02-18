@@ -10,8 +10,8 @@ export default function resume() {
     <div><h1>resume</h1>
 
   
-  <Button variant="secondary" size='sm'><FcDownload /> 
-  <a href="https://docs.google.com/document/d/1W0CY81zoUai61M9R-CuGYzvIjAPc0UwLWcrPAAaI2Zo/edit?usp=sharing" target="_blank">Download my Resume</a></Button>{' '}
+  <Button variant="warning" size='sm' className='rez'><FcDownload /> 
+  <a href="https://docs.google.com/document/d/1d8_A0daWDl6nrE1o6AGKpQbC9FBu8bNmsqEXODIKjtM/edit?usp=sharing" target="_blank">Download my Resume</a></Button>{' '}
 
     </div>
   )
