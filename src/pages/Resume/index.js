@@ -4,10 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../index.css';
 import {FcDownload} from "react-icons/fc" 
 
-
 export default function resume() {
   return (
     <div><h1>resume</h1>
+
+
 
   
   <Button variant="warning" size='sm' className='rez'><FcDownload /> 

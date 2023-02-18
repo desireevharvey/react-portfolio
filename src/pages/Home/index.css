@@ -9,15 +9,15 @@
     display: flex;
     position: absolute; 
     top: 62%; 
-    left: 50%; 
+    left: 51%; 
     transform: translate(-50%, -50%)
 }
 
 .link {
     width: 2em;
     position: absolute;
-    left: 47%;
-    right: 75%;
+    left: 49%;
+    /* right: 75%; */
     margin-top: -3.5em;
 }
 
@@ -25,9 +25,18 @@
 .git {
     width: 2em;
     position: absolute;
-    left: 50%;
+    left: 52%;
     margin-top: -3.5em;
 
+}
+
+
+.mail {
+    width: 2em;
+    position: absolute;
+    margin-top: -3.3em;
+    left: 45.7%;
+    height: 1.65em;
 }
 
 

@@ -1,6 +1,9 @@
 import React from 'react'
 import './index.css';
 import { Image } from 'react-bootstrap';
+import {FcGoogle} from "react-icons/fc" 
+
+
 
 export default function home() {
   return (
@@ -14,6 +17,14 @@ export default function home() {
           <Image src="https://i.postimg.cc/MpXY5TsS/5296501-linkedin-network-linkedin-logo-icon.png"
           className="link" />
           </a>
+          <a href="mailto:desireevharvey@gmail.com">
+          <Image src="https://i.postimg.cc/fygLyNGL/gmail.png"
+          className="mail" />
+          </a>
+
+          
+          
+
 
           <h5 className="Job">Software Engineer</h5>
 
