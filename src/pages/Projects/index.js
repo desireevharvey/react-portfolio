@@ -4,10 +4,19 @@ import { Button } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import './index.css';
+import { motion } from "framer-motion";
+
 
 export default function CardExample() {
   return (
     <>
+    <motion.div className="container text-center"       
+    initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 3 }}
+      >
+
     <div class="row">
     <h5 className="proj">Projects</h5>
       <Col sm={6}>
@@ -87,6 +96,7 @@ export default function CardExample() {
         </Card>
       </Col>
     </div>
+    </motion.div>
     </>
   );
 }

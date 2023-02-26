@@ -35,7 +35,7 @@
     width: 2em;
     position: absolute;
     margin-top: -3.3em;
-    left: 45.7%;
+    left: 45.75%;
     height: 1.65em;
 }
 
@@ -44,10 +44,10 @@
 .text-image {
     display: flex;
     position: absolute;
-    top: 85%;
-    width: 45%; 
+    top: 90%;
+    width: 50%; 
     margin: auto; 
-    margin-left: 30%;
+    margin-left: 29%;
     margin-right: auto;
     text-align: center;
 }

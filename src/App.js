@@ -7,6 +7,11 @@ import Projects from './pages/Projects';
 import Header from './components/Header';
 import './App.css';
 
+// transition
+import { BrowserRouter as Router } from "react-router-dom";
+import AnimatedRoutes from "./pages/AnimatedRoutes";
+
+
 
 
 function App() {

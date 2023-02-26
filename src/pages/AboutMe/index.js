@@ -1,8 +1,18 @@
 import React from 'react'
+import './index.css';
+import { motion } from "framer-motion";
+
 
 export default function aboutme() {
   return (
-    <div><h1>About Me</h1>
+    <motion.div className="container text-center"       
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}
+    transition={{ duration: 3 }}>
+
+    <div className='txt'>
+      <h1>About Me</h1>
 
 Software Developer adept at fundamentals of Javascript, HTML/CSS, React & Python. Consistently eager to learn, values daring experimentation, and is an enthusiastic leader invested in team collaboration to produce readable, maintainable, and consistent code. Enjoys problem-solving and working with development teams to both modernize and create custom applications. 
 
@@ -15,5 +25,6 @@ Skills:
    <p>Backend: Node.js ★ Express ★ MongoDB ★ Mongoose ★ Python ★ Django ★ SQL ★ PostgreSQL ★ RESTful API ★ Heroku</p>
 
     </div>
+    </motion.div>
   )
 }
