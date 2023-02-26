@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../index.css';
 import {FcDownload} from "react-icons/fc" 
 import { motion } from "framer-motion";
-import p1 from "./assets/portfolio_p1.png";
 import { Image } from 'react-bootstrap';
 
 export default function resume() {
@@ -16,7 +15,7 @@ export default function resume() {
     transition={{ duration: 3 }}
     >
 
-  {/* <Image src={p1}></Image> */}
+  
 
 
     <object data="https://docs.google.com/document/d/1d8_A0daWDl6nrE1o6AGKpQbC9FBu8bNmsqEXODIKjtM/edit?usp=sharing" type="application/pdf" width="1000em" height="750em">
