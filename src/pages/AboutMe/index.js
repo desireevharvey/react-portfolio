@@ -12,7 +12,7 @@ export default function aboutme() {
     transition={{ duration: 3 }}>
 
     <div className='txt'>
-      <h1>About Me</h1>
+      <h5>About Me</h5>
 
 Software Developer adept at fundamentals of Javascript, HTML/CSS, React & Python. Consistently eager to learn, values daring experimentation, and is an enthusiastic leader invested in team collaboration to produce readable, maintainable, and consistent code. Enjoys problem-solving and working with development teams to both modernize and create custom applications. 
 

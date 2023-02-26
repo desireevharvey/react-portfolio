@@ -14,13 +14,14 @@ export default function resume() {
     exit={{ opacity: 0 }}
     transition={{ duration: 3 }}
     >
-    <h1>resume</h1>
 
-
-
+    <object data="https://docs.google.com/document/d/1d8_A0daWDl6nrE1o6AGKpQbC9FBu8bNmsqEXODIKjtM/edit?usp=sharing" type="application/pdf" width="1000em" height="750em">
+      <p>Alternative text - include a link <a href="https://docs.google.com/document/d/1d8_A0daWDl6nrE1o6AGKpQbC9FBu8bNmsqEXODIKjtM/edit?usp=sharing">to the PDF!</a></p>
+  </object>
   
-  <Button variant="warning" size='sm' className='rez'><FcDownload /> 
-  <a href="https://docs.google.com/document/d/1d8_A0daWDl6nrE1o6AGKpQbC9FBu8bNmsqEXODIKjtM/edit?usp=sharing" target="_blank">Download my Resume</a></Button>{' '}
+  
+  {/* <Button variant="warning" size='sm' className='rez'><FcDownload /> 
+  <a href="https://docs.google.com/document/d/1d8_A0daWDl6nrE1o6AGKpQbC9FBu8bNmsqEXODIKjtM/edit?usp=sharing" target="_blank">Download my Resume</a></Button>{' '} */}
 
     </motion.div>
   )

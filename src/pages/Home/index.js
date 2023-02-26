@@ -3,18 +3,19 @@ import './index.css';
 import { Image } from 'react-bootstrap';
 import { motion } from "framer-motion";
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
 
 export default function home() {
   return (
     <>
-      <motion.div className="container text-center   bg-black"
+
+              <motion.div className="container text-center   bg-white"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 3 }}
       >
-
 
         <a href="https://github.com/desireevharvey">
           <Image src="https://i.postimg.cc/Hs62b59z/317712-code-repository-github-repository-resource-icon.png"
@@ -28,9 +29,10 @@ export default function home() {
           <Image src="https://i.postimg.cc/fygLyNGL/gmail.png"
           className="mail" />
           </a>
-    </motion.div>
-
+      
+    
           
+   
 <div>
 
           <h5 className="Job">Software Engineer</h5>
@@ -46,8 +48,8 @@ export default function home() {
   
     </div>
     </div>
-
-
+  
+    </motion.div>
     </>
   )
 }

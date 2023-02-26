@@ -1,6 +1,6 @@
 .Job {
     text-align: center;
-    margin-top: 6%;
+    margin-top: 6em;
     margin-bottom: 1em;
 }
 
@@ -12,6 +12,8 @@
     left: 51%; 
     transform: translate(-50%, -50%)
 }
+
+
 
 .link {
     width: 2em;
@@ -44,10 +46,12 @@
 .text-image {
     display: flex;
     position: absolute;
-    top: 90%;
+    top: 43em;
     width: 50%; 
     margin: auto; 
-    margin-left: 29%;
+    margin-left: 27em;
     margin-right: auto;
     text-align: center;
+    width: 30em;
+
 }
