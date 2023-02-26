@@ -16,7 +16,8 @@ export default function home() {
       exit={{ opacity: 0 }}
       transition={{ duration: 3 }}
       >
-
+    <div className='Parent'>
+      <div className='Social'>
         <a href="https://github.com/desireevharvey">
           <Image src="https://i.postimg.cc/Hs62b59z/317712-code-repository-github-repository-resource-icon.png"
           className="git" />
@@ -29,16 +30,14 @@ export default function home() {
           <Image src="https://i.postimg.cc/fygLyNGL/gmail.png"
           className="mail" />
           </a>
-      
+          </div>
     
           
-   
-<div>
-
+          
           <h5 className="Job">Software Engineer</h5>
-        <div>
+       
         <Image className="Pic" src="https://i.postimg.cc/XqkfbfCB/IMG-1189.jpg" fluid />
-        </div>
+      
         <div class='text-image'>
           <p>I'm Desiree, a Software Engineer with a background in leadership 
             and client/customer experience. Thank you for taking the time to 
@@ -46,9 +45,9 @@ export default function home() {
             the icon above! </p>
 
   
+
     </div>
     </div>
-  
     </motion.div>
     </>
   )

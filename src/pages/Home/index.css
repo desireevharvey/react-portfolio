@@ -1,7 +1,22 @@
+.div {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Social {
+    justify-content: space-between;
+}
+
+
+
 .Job {
     text-align: center;
     margin-top: 6em;
     margin-bottom: 1em;
+
 }
 
 .Pic {
@@ -10,26 +25,44 @@
     position: absolute; 
     top: 62%; 
     left: 51%; 
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    margin-top: 2em;
 }
 
 
 
 .link {
     width: 2em;
-    position: absolute;
+    position: absolute; 
     left: 49%;
     /* right: 75%; */
     margin-top: -3.5em;
 }
 
+.link:hover{
+    transform: scale(1.1);
+    transition: all linear 200ms;
+    z-index: 1;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.3);
+    cursor: pointer;
+}
+
 
 .git {
     width: 2em;
-    position: absolute;
+    position: absolute; 
     left: 52%;
     margin-top: -3.5em;
 
+}
+
+.git:hover{
+    transform: scale(1.1);
+    transition: all linear 200ms;
+    z-index: 1;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.3);
+    cursor: pointer;
+    border-radius: 1em;
 }
 
 
@@ -42,16 +75,25 @@
 }
 
 
+.mail:hover{
+    transform: scale(1.1);
+    transition: all linear 200ms;
+    z-index: 1;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.3);
+    cursor: pointer;
+}
 
 .text-image {
     display: flex;
-    position: absolute;
-    top: 43em;
     width: 50%; 
     margin: auto; 
-    margin-left: 27em;
-    margin-right: auto;
     text-align: center;
     width: 30em;
-
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25em;
 }
+
+
+

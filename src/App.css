@@ -1,7 +1,20 @@
+
+
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media (max-width:400px){ 
+	logo,title{ 
+		position:static; 
+	} 
+} 
+
 .Git {
   width: 2.5em;
   margin-right: 1em;
   margin-bottom: 1em;
+  
 }
 
 .Link {
@@ -14,12 +27,12 @@
 
 .App {
   text-align: center;
-  margin-top: 3%;
+
 }
 
 .Name {
   margin-bottom: 2%;
-  margin-top: 0.3em;
+  margin-top: -12em;
 }
 
 .App-logo {
@@ -56,3 +69,5 @@
     transform: rotate(360deg);
   }
 }
+
+

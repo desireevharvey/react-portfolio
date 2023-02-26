@@ -1,0 +1,8 @@
+.tablet-mobile {
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+}
+.tablet-mobile p {
+    padding-top: 2%;
+}

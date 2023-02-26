@@ -1,26 +1,13 @@
-@media (max-width: 650px) {
-
-
-.cards {
-    align-items: center;
-}
-
-
-
-}
-
 .card {
-    margin-top: 20%;
-}
-
-
-.row {
-    margin-left: 15%;
-    margin-right: 10%;
+    border-radius: 5px;
     text-align: center;
-}
+    margin-top: 3em;
+    
+  }
 
+  .Proj {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
 
-.proj {
-    transform: translate(-0.10%, 100%)
 }
