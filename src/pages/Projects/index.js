@@ -57,7 +57,7 @@ export default function CardExample() {
     <div class="card">
   <Image src="https://i.postimg.cc/kXVpz0D2/210301116-941b7853-4883-4a16-80e9-91a96a43714b.jpg" class="card-img-top" alt="..."/>
   <div class="card-body">
-    <h5 class="card-title">Yard-Sail</h5>
+    <h5 class="card-title">Yard Sail</h5>
     <p class="card-text">Yard Sail is a full stack application with a React 
               frontend. The purpose of Yard Sail is to allow users 
               (buyers and sellers) to view and post local items for 
