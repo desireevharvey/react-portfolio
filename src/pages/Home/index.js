@@ -65,7 +65,7 @@ export default function home() {
               </div>
         <div class="col-sm">
           
-                <h4 className="card-title w-75">Software Developer</h4>
+                <h4 className="card-title1 w-75">Software Developer</h4>
 
 
     					<p className="card-text text-justify w-75">
