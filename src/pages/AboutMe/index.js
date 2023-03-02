@@ -35,8 +35,57 @@ export default function aboutme() {
     transition={{ duration: 3 }}>
 
 
+<div class="container">
+    <div class="row gy-3">
+        <div class="col-sm">
+            <div class="card h-100 border-0">
+                <div class="card-body">
+                  <h5 class="card-title text-align-center">About Me</h5>
+                  <p class="card-text1">
+                  Software Developer adept at fundamentals of Javascript, HTML/CSS, React & Python. Consistently eager to learn, values daring experimentation, and is an enthusiastic leader invested in team 
+                  collaboration to produce readable, maintainable, and consistent code. Enjoys problem-solving and working with development teams to both modernize and create custom applications. 
+                  After years of working customer service jobs to support myself financially through college, I graduated with a BS in Marketing. Not long after was the staggering blow of the COVID-19 pandemic. 
+                  With so much unexpected change, I had to adapt my way of thinking. I knew that I wanted to cultivate a new skill set to challenge myself. That is what started my transition to the tech world.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm">
+            <div class="card h-100 border-0">
+                <div class="card-body">
+                  <h5 class="card-title">Skills</h5>
+                  <p class="card-text2">
+                  <Image src={i1}></Image>
+                  <Image src={i2}></Image>
+                  <Image src={i3}></Image>
+                  <Image src={i4}></Image>
+                  <Image src={i5}></Image>
+                  <Image src={i6}></Image>
+                  <Image src={i7}></Image>
+                  <Image src={i8}></Image>
+                  <Image src={i9}></Image>
+                  <Image src={i10}></Image>
+                  <Image src={i11}></Image>
+                  <Image src={i12}></Image>
+                  <Image src={i13}></Image>
+                  <Image src={i14}></Image>
+                  <Image src={i15}></Image>
+                  <Image src={i16}></Image>
+                  <Image src={i17}></Image>
+                  <Image src={i18}></Image>
 
-<div class="float-container">
+
+                  </p>
+                </div>
+              </div>
+        </div>
+        </div>
+    </div>
+
+
+
+
+
+{/* <div class="float-container">
 
   <div class="float-child">
     <h5 className="title">About Me</h5>
@@ -74,7 +123,7 @@ export default function aboutme() {
   </div>
   </div>
   
-</div>
+</div> */}
 
     {/* <div className='txt'>
     <div className="cont1">

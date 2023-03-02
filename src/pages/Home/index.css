@@ -6,55 +6,29 @@
     align-items: center;
 }
 
-.Social {
+
+
+.card-title {
+    text-align: start;
+
+}
+
+
+.pic {
+    
+    margin-top: 4em;
+}
+
+
+
+
+
+.social {
+    display: grid;
+    width: 2em;
+    position: absolute; 
     justify-content: space-between;
-  
-}
-
-
-
-.Job {
-    text-align: center;
-    margin-top: 6em;
-    margin-bottom: 1em;
-
-}
-
-.Pic {
-    border-radius: 100%;
-    display: flex;
-    position: absolute; 
-    top: 62%; 
-    left: 51%; 
-    transform: translate(-50%, -50%);
-    margin-top: 2em;
-}
-
-
-
-.link {
-    width: 2em;
-    position: absolute; 
-    left: 49%;
-    /* right: 75%; */
-    margin-top: -3.5em;
-}
-
-.link:hover{
-    transform: scale(1.1);
-    transition: all linear 200ms;
-    z-index: 1;
-    box-shadow: 1px 1px 10px rgba(0,0,0,.3);
-    cursor: pointer;
-}
-
-
-.git {
-    width: 2em;
-    position: absolute; 
-    left: 52%;
-    margin-top: -3.5em;
-
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .git:hover{
@@ -67,12 +41,21 @@
 }
 
 
+
+.link:hover{
+    transform: scale(1.1);
+    transition: all linear 200ms;
+    z-index: 1;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.3);
+    cursor: pointer;
+    border-radius: 30%;
+}
+
+
 .mail {
-    width: 2em;
-    position: absolute;
-    margin-top: -3.3em;
-    left: 45.75%;
-    height: 1.65em;
+    margin-left: 2em;
+    margin-right: 2em;
+
 }
 
 
@@ -82,19 +65,43 @@
     z-index: 1;
     box-shadow: 1px 1px 10px rgba(0,0,0,.3);
     cursor: pointer;
-}
+    border-radius: 40%;
+} 
 
-.text-image {
-    display: flex;
-    width: 50%; 
-    margin: auto; 
-    text-align: center;
-    width: 30em;
-    flex-wrap: nowrap;
+
+
+
+/* .card-img-top {
     justify-content: center;
-    align-items: center;
-    margin-top: 25em;
+    max-width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+} */
+
+
+/* .card-text1 {
+    margin-left: auto;
+    margin-right: auto; 
+} */
+
+
+/* .card-body2 {
+    margin-top: 8em;
+    text-align: center;
+} */
+
+
+
+.card-title {
+    margin-top: 4em;
+    text-align: center;
+
 }
 
 
-
+.card-text {
+    margin-top: 3em;
+    text-align: center;
+}

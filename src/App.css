@@ -1,12 +1,5 @@
 
-@media only screen and (min-width: 1024px) {
-}
 
-@media (max-width:400px){ 
-	logo,title{ 
-		position:static; 
-	} 
-} 
 
 
 .Git {
@@ -24,15 +17,10 @@
 
 
 
-.App {
-  text-align: center;
 
-}
-
+/* 
 .Name {
-  margin-bottom: 2%;
-  margin-top: -12em;
-}
+}  */
 
 .App-logo {
   height: 40vmin;
@@ -45,16 +33,7 @@
   }
 }
 
-.App-header {
-  /* background-color: #282c34; */
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
