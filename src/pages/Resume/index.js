@@ -29,13 +29,13 @@ export default function resume() {
     <div class="row gy-3">
         <div class="col-sm">
             <div class="card h-100 border-0">
-            <Image className="pages" src={p1} class="card-img-top" alt="..."/>
+            <Image className="pages" src={p1} class="card-body" alt="..."/>
 
               </div>
         </div>
         <div class="col-sm">
             <div class="card h-100 border-0">
-            <Image className="pages" src={p2} class="card-img-top" alt="..."/>
+            <Image className="pages" src={p2} class="card-body" alt="..."/>
                 </div>
               </div>
         </div>
