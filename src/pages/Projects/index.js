@@ -17,14 +17,13 @@ export default function CardExample() {
       >
 
 <h5 className="Proj">Projects</h5>
-
 <div class="container">
   <div class="row">
   <div class="col-md-4">
     <div class="card">
   <Image src="https://i.postimg.cc/PxjBW2MS/200362906-5f8107f1-6ae9-4b6b-ac8b-c1c8d269df4c.png" class="card-img-top" alt="..."/>
   <div class="card-body">
-    <h5 class="card-title">My First Portfolio</h5>
+    <h5 class="My-First-Portfolio">My First Portfolio</h5>
     <p class="card-text">This was my first project. I wanted to create a portfolio to showcase my
                         personality, style and skillset.</p>
                         <p>Technologies Used: HTML, CSS, Javascript</p>
@@ -54,9 +53,9 @@ export default function CardExample() {
   </div>
   <div class="col-md-4">
     <div class="card">
-  <Image src="https://i.postimg.cc/kXVpz0D2/210301116-941b7853-4883-4a16-80e9-91a96a43714b.jpg" class="card-img-top" alt="..."/>
+  <Image src="https://i.postimg.cc/fT5H3tMt/yardsailscreenshot.jpg" class="card-img-top" alt="..."/>
   <div class="card-body">
-    <h5 class="card-title">Yard Sail</h5>
+    <h5 class="Yard-Sail">Yard Sail</h5>
     <p class="card-text">Yard Sail is a full stack application with a React 
               frontend. The purpose of Yard Sail is to allow users 
               (buyers and sellers) to view and post local items for 
@@ -64,7 +63,6 @@ export default function CardExample() {
               <p>Technologies Used: React, React Bootstrap, Cors, Node.js, Express, jwtSimple, Mongoose, Axios.</p>
             <Button variant="secondary" href="https://github.com/tehranimilad/Yard-Sail">Github Repo</Button>{' '}
             <Button variant="secondary" href="https://yard-sail-app.herokuapp.com/">Live Site/App</Button>{' '}
-
   </div>
 </div>
   </div>
@@ -72,7 +70,7 @@ export default function CardExample() {
     <div class="card">
   <Image src="https://i.postimg.cc/Fs2B4TJD/Screen-Shot-2023-02-08-at-8-49-45-PM.png" class="card-img-top" alt="..."/>
   <div class="card-body">
-    <h5 class="card-title">Event Seeker</h5>
+    <h5 class="Event-Seeker">Event Seeker</h5>
     <p class="card-text">My events is a full stack application with a React 
               frontend. When the user creates an account, they 
               are allowed to log in in order to create, edit or 
