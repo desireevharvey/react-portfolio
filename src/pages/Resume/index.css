@@ -20,7 +20,7 @@ body {
   }
 
   #rez a {
-    color: white;
+    color: white !important;
   }
 
 
