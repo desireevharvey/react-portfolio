@@ -10,7 +10,7 @@
       max-width: 100%;
     }
   
-    .card-img {
+    .card-img-top {
       width: 40%; /* set the width of the image to 40% of its container */
       max-width: 40px; /* set a maximum width for the image */
       height: auto; /* set the height to auto to maintain aspect ratio */
@@ -27,7 +27,7 @@
       max-width: 20em;
     }
   
-    .card-img {
+    .card-img-top {
       width: 40%; /* set the width of the image to 40% of its container */
       max-width: 50px; /* set a maximum width for the image */
       height: auto; /* set the height to auto to maintain aspect ratio */
