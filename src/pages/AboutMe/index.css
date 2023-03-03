@@ -5,8 +5,9 @@
 
 
 .card-text2 {
-    width: 20em;
-    height: 20em;
+    position: absolute;
+    width: 200%;
+    height: 200%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 4px;
