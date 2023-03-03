@@ -22,7 +22,7 @@ export default function resume() {
 
 <Button variant="secondary" bg="dark" size="sm" id="rez" className="mt-2 text-white">
   <FcDownload /> 
-  <a href="https://docs.google.com/document/d/1d8_A0daWDl6nrE1o6AGKpQbC9FBu8bNmsqEXODIKjtM/edit?usp=sharing" id="atag" target="_blank">Download my Resume</a>
+  <a href="https://docs.google.com/document/d/1d8_A0daWDl6nrE1o6AGKpQbC9FBu8bNmsqEXODIKjtM/edit?usp=sharing" id="atag" target="_blank" style={{color: "white"}}>Download my Resume</a>
 </Button>
 
 
