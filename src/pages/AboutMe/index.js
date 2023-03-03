@@ -54,24 +54,24 @@ export default function aboutme() {
                 <div class="card-body">
                   <h5 class="card-title">Skills</h5>
                   <p class="card-text" id="card-text2">
-                  <Image src={i1}></Image>
-                  <Image src={i2}></Image>
-                  <Image src={i3}></Image>
-                  <Image src={i4}></Image>
-                  <Image src={i5}></Image>
-                  <Image src={i6}></Image>
-                  <Image src={i7}></Image>
-                  <Image src={i8}></Image>
-                  <Image src={i9}></Image>
-                  <Image src={i10}></Image>
-                  <Image src={i11}></Image>
-                  <Image src={i12}></Image>
-                  <Image src={i13}></Image>
-                  <Image src={i14}></Image>
-                  <Image src={i15}></Image>
-                  <Image src={i16}></Image>
-                  <Image src={i17}></Image>
-                  <Image src={i18}></Image>
+                  <Image src={i1} id="card-text2"></Image>
+                  <Image src={i2} id="card-text2"></Image>
+                  <Image src={i3} id="card-text2"></Image>
+                  <Image src={i4} id="card-text2"></Image>
+                  <Image src={i5} id="card-text2"></Image>
+                  <Image src={i6} id="card-text2"></Image>
+                  <Image src={i7} id="card-text2"></Image>
+                  <Image src={i8} id="card-text2"></Image>
+                  <Image src={i9} id="card-text2"></Image>
+                  <Image src={i10} id="card-text2"></Image>
+                  <Image src={i11} id="card-text2"></Image>
+                  <Image src={i12} id="card-text2"></Image>
+                  <Image src={i13} id="card-text2"></Image>
+                  <Image src={i14} id="card-text2"></Image>
+                  <Image src={i15} id="card-text2"></Image>
+                  <Image src={i16} id="card-text2"></Image>
+                  <Image src={i17} id="card-text2"></Image>
+                  <Image src={i18} id="card-text2"></Image>
 
 
                   </p>
