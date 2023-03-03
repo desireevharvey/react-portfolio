@@ -56,14 +56,14 @@ export default function home() {
 
 
 
- <div class="card border-0 rounded-7">
-    <div class="row gy-3">
-        <div class="col-sm">
-                <div class="card-body">
+ <div className="card rounded-7 border-0">
+    <div className="row gy-3">
+        <div className="col-sm">
+                <div className="card-body">
                   <Image className="pic w-50" src="https://i.postimg.cc/HnFhKh3y/IMG-4950.jpg"/>
                 </div>
               </div>
-        <div class="col-sm">
+        <div className="col-sm">
           
                 <h4 className="card-title1 w-75">Software Developer</h4>
 
