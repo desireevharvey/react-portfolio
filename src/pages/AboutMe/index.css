@@ -2,16 +2,7 @@
     margin-top: 2em;
 }
 
-.card-text2 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 4px;
-    margin: auto;
-    max-width: 25%;
-}
+
 
 
 @media only screen and (max-width: 600px) {
