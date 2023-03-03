@@ -53,7 +53,7 @@ export default function aboutme() {
             <div class="card h-100 border-0">
                 <div class="card-body">
                   <h5 class="card-title">Skills</h5>
-                  <p class="card-text2">
+                  <p class="card-text" id="card-text2">
                   <Image src={i1}></Image>
                   <Image src={i2}></Image>
                   <Image src={i3}></Image>
