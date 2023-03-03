@@ -9,7 +9,7 @@
 .card-text2 {
 position: relative;
 grid-template-columns: repeat(2, 1fr);
-max-width: 100%; 
+max-width: 50%; 
 }
 }
 
