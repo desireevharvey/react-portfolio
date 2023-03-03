@@ -5,6 +5,7 @@
   /* For screens smaller than 600px */
   @media only screen and (max-width: 600px) {
     #card-text2 {
+      margin-top: 2em;
       display: grid;
       position: relative;
       grid-template-columns: repeat(4, 1fr);
@@ -26,6 +27,7 @@
   /* For screens larger than or equal to 600px */
   @media only screen and (min-width: 600px) {
     #card-text2 {
+      margin-top: 2em;
       display: grid;
       position: relative;
       grid-template-columns: repeat(4, 1fr);
