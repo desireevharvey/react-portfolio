@@ -1,20 +1,21 @@
 .card-text1 {
     margin-top: 2em;
-}
-
-
-/* For screens smaller than 600px */
-@media only screen and (max-width: 600px) {
+  }
+  
+  /* For screens smaller than 600px */
+  @media only screen and (max-width: 600px) {
     .card-text2 {
       position: relative;
       grid-template-columns: repeat(3, 1fr);
       max-width: 100%;
     }
-    
+  
     .card-img {
-      width: 20%; /* set the width of the image to 20% of its container */
-      max-width: 50px; /* set a maximum width for the image */
+      width: 40%; /* set the width of the image to 40% of its container */
+      max-width: 40px; /* set a maximum width for the image */
       height: auto; /* set the height to auto to maintain aspect ratio */
+      display: block;
+      margin: 0 auto; /* center the image horizontally */
     }
   }
   
@@ -25,19 +26,18 @@
       grid-template-columns: repeat(5, 1fr);
       max-width: 20em;
     }
-    
+  
     .card-img {
-      width: 50px; /* set the width of the image to 50px */
-      max-height: 50px; /* set a maximum height for the image */
+      width: 40%; /* set the width of the image to 40% of its container */
+      max-width: 50px; /* set a maximum width for the image */
       height: auto; /* set the height to auto to maintain aspect ratio */
+      display: block;
+      margin: 0 auto; /* center the image horizontally */
     }
   }
   
-  
-
-
-.card-title {
+  .card-title {
     text-align: center;
     margin-top: 2em;
-}
-
+  }
+  
