@@ -4,21 +4,34 @@
 
 
 
+/* For screens smaller than 600px */
 @media only screen and (max-width: 600px) {
-.card-text2 {
-position: relative;
-grid-template-columns: repeat(3, 1fr);
-max-width: 100%; /* change max-width to 100% to allow enough space for 3 columns */
-}
-}
-
-@media only screen and (min-width: 600px) {
-.card-text2 {
-position: relative;
-grid-template-columns: repeat(5, 1fr); /* change back to 5 columns on screens larger than 600px */
-max-width: 20em;
-}
-}
+    .card-text2 {
+      position: relative;
+      grid-template-columns: repeat(3, 1fr);
+      max-width: 100%;
+    }
+    
+    .card-img {
+      width: 20%; /* set the width of the image to 20% of its container */
+      height: auto; /* set the height to auto to maintain aspect ratio */
+    }
+  }
+  
+  /* For screens larger than or equal to 600px */
+  @media only screen and (min-width: 600px) {
+    .card-text2 {
+      position: relative;
+      grid-template-columns: repeat(5, 1fr);
+      max-width: 20em;
+    }
+    
+    .card-img {
+      width: 10%; /* set the width of the image to 10% of its container */
+      height: auto; /* set the height to auto to maintain aspect ratio */
+    }
+  }
+  
 
 
 .card-title {
