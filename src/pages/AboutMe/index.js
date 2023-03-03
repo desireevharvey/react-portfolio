@@ -54,24 +54,24 @@ export default function aboutme() {
                 <div class="card-body">
                   <h5 class="card-title">Skills</h5>
                   <p class="card-text2">
-                  <Image src={i1} w-100></Image>
-                  <Image src={i2} w-100></Image>
-                  <Image src={i3} w-100></Image>
-                  <Image src={i4} w-100></Image>
-                  <Image src={i5} w-100></Image>
-                  <Image src={i6} w-100></Image>
-                  <Image src={i7} w-100></Image>
-                  <Image src={i8} w-100></Image>
-                  <Image src={i9} w-100></Image>
-                  <Image src={i10} w-100></Image>
-                  <Image src={i11} w-100></Image>
-                  <Image src={i12} w-100></Image>
-                  <Image src={i13} w-100></Image>
-                  <Image src={i14} w-100></Image>
-                  <Image src={i15} w-100></Image>
-                  <Image src={i16} w-100></Image>
-                  <Image src={i17} w-100></Image>
-                  <Image src={i18} w-100></Image>
+                  <Image src={i1}></Image>
+                  <Image src={i2}></Image>
+                  <Image src={i3}></Image>
+                  <Image src={i4}></Image>
+                  <Image src={i5}></Image>
+                  <Image src={i6}></Image>
+                  <Image src={i7}></Image>
+                  <Image src={i8}></Image>
+                  <Image src={i9}></Image>
+                  <Image src={i10}></Image>
+                  <Image src={i11}></Image>
+                  <Image src={i12}></Image>
+                  <Image src={i13}></Image>
+                  <Image src={i14}></Image>
+                  <Image src={i15}></Image>
+                  <Image src={i16}></Image>
+                  <Image src={i17}></Image>
+                  <Image src={i18}></Image>
 
 
                   </p>
