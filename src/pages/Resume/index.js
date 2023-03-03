@@ -19,8 +19,11 @@ export default function resume() {
     transition={{ duration: 3 }}
     >
 
-<Button variant="secondary" bg="dark" size='sm' id='rez'><FcDownload /> 
-  <a href="https://docs.google.com/document/d/1d8_A0daWDl6nrE1o6AGKpQbC9FBu8bNmsqEXODIKjtM/edit?usp=sharing" target="_blank">Download my Resume</a></Button>{' '}
+
+<Button variant="secondary" bg="dark" size="sm" id="rez" className="mt-2 text-white">
+  <FcDownload /> 
+  <a href="https://docs.google.com/document/d/1d8_A0daWDl6nrE1o6AGKpQbC9FBu8bNmsqEXODIKjtM/edit?usp=sharing" target="_blank">Download my Resume</a>
+</Button>
 
 
 
