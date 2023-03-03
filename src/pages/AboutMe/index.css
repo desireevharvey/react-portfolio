@@ -14,6 +14,14 @@ max-width: 50%;
 }
 
 
+@media only screen and (min-width: 600px) {
+    .card-text2 {
+        position: relative;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 50%; 
+    }
+    }
+
 .card-title {
     text-align: center;
     margin-top: 2em;
