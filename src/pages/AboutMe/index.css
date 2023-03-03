@@ -6,6 +6,8 @@
   @media only screen and (max-width: 600px) {
     #card-text2 {
       margin-top: 2em;
+      margin-left: auto;
+      margin-right: auto;
       display: grid;
       position: relative;
       grid-template-columns: repeat(5, 1fr);
@@ -28,6 +30,8 @@
   @media only screen and (min-width: 600px) {
     #card-text2 {
       margin-top: 2em;
+      margin-left: auto;
+      margin-right: auto;
       display: grid;
       position: relative;
       grid-template-columns: repeat(5, 1fr);
