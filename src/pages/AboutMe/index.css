@@ -4,23 +4,22 @@
 
 
 
-
 @media only screen and (max-width: 600px) {
 .card-text2 {
 position: relative;
-grid-template-columns: repeat(2, 1fr);
-max-width: 25%; 
+grid-template-columns: repeat(3, 1fr);
+max-width: 100%; /* change max-width to 100% to allow enough space for 3 columns */
 }
 }
-
 
 @media only screen and (min-width: 600px) {
-    .card-text2 {
-        position: relative;
-        grid-template-columns: repeat(2, 1fr);
-        max-width: 25%; 
-    }
-    }
+.card-text2 {
+position: relative;
+grid-template-columns: repeat(5, 1fr); /* change back to 5 columns on screens larger than 600px */
+max-width: 20em;
+}
+}
+
 
 .card-title {
     text-align: center;
